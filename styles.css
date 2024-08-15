@@ -41,6 +41,12 @@ section {
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .light-mode {
