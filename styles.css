@@ -42,11 +42,32 @@ section {
     padding: 10px;
     border-radius: 5px;
     transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden; /* Ensure content doesn't overflow */
+    text-align: center; /* Center-align text */
 }
 
 .project:hover {
     transform: scale(1.05);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+    width: 100%; /* Make image fill the width of the .project div */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 550px; /* Set a maximum height for consistency */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    margin-bottom: 10px; /* Space between image and text */
+    border-radius: 5px; /* Rounded corners for image */
+}
+
+.project h3 {
+    margin: 0 0 10px; /* Space below the heading */
+    font-size: 1.2em; /* Slightly larger font size */
+}
+
+.project p {
+    margin: 0;
+    font-size: 1em; /* Font size for description */
 }
 
 .light-mode {
