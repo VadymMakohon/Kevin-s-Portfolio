@@ -54,7 +54,7 @@ section {
 .project-image {
     width: 100%; /* Make image fill the width of the .project div */
     height: auto; /* Maintain aspect ratio */
-    max-height: 550px; /* Set a maximum height for consistency */
+    max-height: 570px; /* Set a maximum height for consistency */
     object-fit: cover; /* Ensure the image covers the area without stretching */
     margin-bottom: 10px; /* Space between image and text */
     border-radius: 5px; /* Rounded corners for image */
