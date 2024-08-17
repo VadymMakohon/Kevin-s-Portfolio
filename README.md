@@ -1,6 +1,9 @@
 # Kevin-s-Portfolio
 A simple, yet sleek portfolio design that caters to your professional needs. This portfolio provides a minimalist and elegant interface that showcases your projects, skills, and contact information in a user-friendly manner.
 
+## Preview 
+![preview](https://github.com/user-attachments/assets/97b84c2c-3963-470e-aa3c-2cd5033b8418)
+
 ## Features
 
 ### Dark & Light Theme:
