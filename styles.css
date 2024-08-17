@@ -91,3 +91,7 @@ button {
 button:hover {
     color: #6200ea;
 }
+
+footer:content {
+    text-align: center;
+}
