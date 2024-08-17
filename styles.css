@@ -92,6 +92,15 @@ button:hover {
     color: #6200ea;
 }
 
-footer:content {
+footer {
+    background-color: #aa9c9c;
+    color: white;
+    padding: 10px 20px;
     text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
 }
